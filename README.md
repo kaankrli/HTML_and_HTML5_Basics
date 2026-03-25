@@ -4,17 +4,17 @@ This repository shows the HTML Basics
 
 <b>🏗️ Core HTML Tags</b>
 
-//<html>
+Html:
 The root element of an HTML page. All other elements (except for the <!DOCTYPE> declaration) must be descendants of this tag. It wraps the entire content of the document.
 
 Usage: Tells the browser that the document is an HTML file.
 
-<head>
+Head: 
 A container for metadata (data about data). The content inside this tag isn't displayed on the web page itself, but it provides vital instructions to the browser and search engines.
 
 Includes: Scripts, stylesheets, character sets, and the document title.
 
-<title>
+Title:
 Defines the title of the document. This text appears in the browser’s title bar or the page's tab. It is also the default name used when a user bookmarks the page.
 
 Importance: Crucial for SEO (Search Engine Optimization) and accessibility.
