@@ -32,3 +32,7 @@ Common Uses: * charset: Defines the character encoding (usually UTF-8).
 viewport: Controls how the page is displayed on mobile devices.
 
 description: Provides a summary for search engine results.
+
+------------------
+
+H1, H2, H3, H4, H5 H6: From biggest to smallest heading tags
