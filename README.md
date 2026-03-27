@@ -49,3 +49,9 @@ UL: unordered list tag
 ----------------------
 A: Anchor tag, defines a hyperlink
 IMG: image tag
+
+----------------
+TABLE: Table tag
+TR: Table Row
+TD: Table Data
+TH: Table Headings
