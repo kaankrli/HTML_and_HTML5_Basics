@@ -67,3 +67,7 @@ NAV: Contains the navigation menu, or other navigation functionality for the pag
 ARTICLE: Contains a standalone piece of content that would make sense if syndicated as an RSS item, for example a news item.
 SECTION: Used to either group different articles into different purposes or subjects, or to define the different sections of a single article.
 ASIDE: Defines a block of content that is related to the main content around it, but not central to the flow of it.
+
+--------
+FORM: Form tag
+Input types: Text, email, url, date, radio...
