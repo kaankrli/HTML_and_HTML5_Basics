@@ -47,4 +47,4 @@ OL: ordered list tag
 UL: unordered list tag
 
 ----------------------
-A: Attribute tag
+A: Anchor tag, defines a hyperlink
