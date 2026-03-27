@@ -3,6 +3,17 @@
 <head>
     <meta charset="utf-8">
     <title>Learn HTML</title>
+    <style>
+        h2{
+            border: 1px solid red;
+        }
+        #birds{
+            background-color: bisque;
+        }
+        .highlight{
+            background-color: yellow
+        }
+    </style>
 </head>
 
 <body>
@@ -12,15 +23,16 @@
 <li><a href="https://www.google.com" target="_blank">Dogs</a></li>
 <li><a href="#birds">Birds</a></li>
 </ul>
-    
+
 <h2>Sub Heading</h2>
+
 <h3>h3</h3>
 <p>
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br> Aenean commodo ligula eget dolor.<br> 
     Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
 </p> 
 <h2>Look at this</h2>
-<p>
+<p class="highlight">
     onec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
     Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, 
     venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. 
@@ -28,7 +40,7 @@
     vitae, eleifend ac, enim. 
 </p>
 <h2>Cats</h2>
-    <img src="C:\...\...\cat.jpg" alt="cat pic" width="250" height="300">
+<img src="C:\Users\kaann\Desktop\htmlLearn\cat.jpg" alt="cat pic" width="250" height="300">
 <p>
     liquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra 
     nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur 
@@ -36,8 +48,8 @@
     sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, 
     hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus.
 </p> 
-<h2>Dogs</h2>
-    <img src="C:\...\...\dog.jpg" alt="dog pic" width="250" height="300">
+<h2 class="highlight">Dogs</h2>
+<img src="C:\Users\kaann\Desktop\htmlLearn\dog.jpg" alt="dog pic" width="250" height="300">
 <p>
     Donec vitae sapien ut libero venenatis 
     faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris 
@@ -47,8 +59,8 @@
 
 <p>blah blah blah hello world</p>
 
-    <h2 id="birds">Birds</h2>
-    <img src="C:\...\...\bird.jpg" alt="bird pic" width="250" height="300">
+<h2 id="birds">Birds</h2>
+<img src="C:\Users\kaann\Desktop\htmlLearn\bird.jpg" alt="bird pic" width="250" height="300">
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
     Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et 
     magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, 
@@ -61,7 +73,6 @@ In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum fe
  leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, 
  feugiat a, tellus.
 </p>
-
 
 <hr>
 <ol>
@@ -112,12 +123,14 @@ In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum fe
     <li>three</li>
     <li>four</li>
 </ul>
+
 <hr>
-    <table style="width:100%">
+
+<table style="width:100%;border:5px solid red;">
 <tr> 
-    <th>First Name</th>
-    <th>Last Name</th>
-    <th>Phone Number</th>
+    <th style="border:1px solid black;">First Name</th>
+    <th style="border:1px solid black;">Last Name</th>
+    <th style="border:1px solid black;">Phone Number</th>
 </tr>
 <tr>
     <td>John</td>
@@ -131,7 +144,7 @@ In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum fe
 </tr>
 
 </table>
-    
+
 </body>
 
 </html>
