@@ -41,6 +41,9 @@ P: Paragraph tag
 BR: Line break tag
 HR: Thematic line divider tag
 
+B: specifies bold text without any extra importance
+
+STRONG: is used to define text with strong importance
 ------------------
 Lİ: list tag
 OL: ordered list tag
