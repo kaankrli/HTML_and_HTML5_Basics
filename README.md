@@ -43,7 +43,9 @@ HR: Thematic line divider tag
 
 B: specifies bold text without any extra importance
 
-STRONG: is used to define text with strong importance
+STRONG: is used to define text with strong importance (semantic element)
+
+İ : this tag defines a part of text in an alternate voice or mood (italic font). 
 
 ------------------
 Lİ: list tag
