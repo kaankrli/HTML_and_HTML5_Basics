@@ -95,3 +95,7 @@ SCRIPT: This tag is used to embed a client-side script (JavaScript).
 ---------
 
 NAV: Defines navigation links
+
+---------
+
+MAİN: Specifies the main content of a document
