@@ -1,13 +1,18 @@
-# HTML_Basics
-This repository shows the HTML Basics
+# HTML_and_HTML5_Basics
+This repository shows the HTML & HTML5 Basics
 
 
-🏗️ Core HTML Tags
+🏗️ Core HTML and HTML5 Tags
 
 HTML:
 The root element of an HTML page. All other elements (except for the <!DOCTYPE> declaration) must be descendants of this tag. It wraps the entire content of the document.
 
 Usage: Tells the browser that the document is an HTML file.
+
+----------------------------------
+
+HTML5:
+The fifth and current major version of Hypertext Markup Language (HTML), the standard language used for structuring and presenting content on the World Wide Web.
 
 HEAD: 
 A container for metadata (data about data). The content inside this tag isn't displayed on the web page itself, but it provides vital instructions to the browser and search engines.
