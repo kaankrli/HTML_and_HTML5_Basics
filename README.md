@@ -9,7 +9,7 @@ The root element of an HTML page. All other elements (except for the <!DOCTYPE> 
 
 Usage: Tells the browser that the document is an HTML file.
  
- "<!--Comment line-->" This shows comment on html 
+ '<!--Comment line-->' This shows comment on html 
 
 HEAD: 
 A container for metadata (data about data). The content inside this tag isn't displayed on the web page itself, but it provides vital instructions to the browser and search engines.
