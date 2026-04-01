@@ -71,3 +71,7 @@ ASIDE: Defines a block of content that is related to the main content around it,
 --------
 FORM: Form tag
 Input types: Text, email, url, date, radio...
+
+-----------
+GET Method: Shows input info into browser search bar
+POST Method: Secures the info and doesn't show anything
