@@ -103,3 +103,5 @@ MAİN: Specifies the main content of a document
 SECTION: Defines a section in the document
 
 DETAiLS: Defines additional details that the user can view or hide 
+
+DİALOG: Defines a dialog box or window
