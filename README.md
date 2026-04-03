@@ -107,3 +107,5 @@ DETAiLS: Defines additional details that the user can view or hide
 DİALOG: Defines a dialog box or window
 
 SUMMARY: Defines a visible heading for a "details" element
+
+DATA: Adds a machine-readable translation of a given content
