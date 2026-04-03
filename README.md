@@ -1,111 +1,219 @@
-# HTML_and_HTML5_Basics
-This repository shows the HTML & HTML5 Basics
+```markdown
+# HTML and HTML5 Basics
 
+This repository introduces the **fundamental concepts and tags of HTML and HTML5** used to structure and present content on the web.
 
-🏗️ Core HTML and HTML5 Tags
+---
 
-HTML:
-The root element of an HTML page. All other elements (except for the <!DOCTYPE> declaration) must be descendants of this tag. It wraps the entire content of the document.
+## 📌 Core Concepts
 
-Usage: Tells the browser that the document is an HTML file.
+### HTML
+**HTML (HyperText Markup Language)** is the standard language used to structure web pages.
 
-----------------------------------
+- The `<html>` tag is the **root element** of an HTML page.
+- All other elements (except `<!DOCTYPE>`) must be inside this element.
+- It wraps the **entire content** of the document.
 
-HTML5:
-The fifth and current major version of Hypertext Markup Language (HTML), the standard language used for structuring and presenting content on the World Wide Web.
+**Usage:**  
+Tells the browser that the document is an HTML file.
 
-HEAD: 
-A container for metadata (data about data). The content inside this tag isn't displayed on the web page itself, but it provides vital instructions to the browser and search engines.
+---
 
-Includes: Scripts, stylesheets, character sets, and the document title.
+### HTML5
+**HTML5** is the **fifth and current major version** of HTML.  
+It introduces improved **semantic structure, multimedia support, and better accessibility**.
 
-TITLE:
-Defines the title of the document. This text appears in the browser’s title bar or the page's tab. It is also the default name used when a user bookmarks the page.
+---
 
-Importance: Crucial for SEO (Search Engine Optimization) and accessibility.
+# 🏗️ Document Structure Tags
 
-BODY:
-Contains all the visible content of the HTML document. This is where you place text, images, hyperlinks, tables, lists, and any other elements that users interact with.
+## `<head>`
+A container for **metadata** (data about the document).
 
-Usage: Only one <body> element can exist per page.
+Content inside this tag **is not displayed** on the web page but provides instructions for browsers and search engines.
 
-<meta>
-Used to define metadata that cannot be represented by other HTML meta-related elements (like <title>). It is always placed inside the <head> section.
+**Common elements inside `<head>`**
 
-Common Uses: * charset: Defines the character encoding (usually UTF-8).
+- Scripts
+- Stylesheets
+- Character encoding
+- Page title
+- Metadata
 
-viewport: Controls how the page is displayed on mobile devices.
+---
 
-description: Provides a summary for search engine results.
+## `<title>`
+Defines the **title of the document**.
 
-------------------
+Displayed in:
 
-H1, H2, H3, H4, H5 H6: From Largest to smallest heading tags
+- Browser tab
+- Bookmark title
+- Search engine results
 
-P: Paragraph tag
-BR: Line break tag
-HR: Thematic line divider tag
+**Importance:**  
+Important for **SEO (Search Engine Optimization)** and **accessibility**.
 
-B: specifies bold text without any extra importance
+---
 
-STRONG: is used to define text with strong importance (semantic element)
+## `<body>`
+Contains **all visible content** of the webpage.
 
-İ : this tag defines a part of text in an alternate voice or mood (italic font). 
+Examples of elements placed inside `<body>`:
 
-------------------
-Lİ: list tag
-OL: ordered list tag
-UL: unordered list tag
+- Text
+- Images
+- Hyperlinks
+- Tables
+- Lists
+- Forms
 
-----------------------
-A: Anchor tag, defines a hyperlink
-IMG: image tag
+⚠️ Only **one `<body>` element** can exist per page.
 
-----------------
-TABLE: Table tag
-TR: Table Row
-TD: Table Data
-TH: Table Headings
+---
 
----------------
-SPAN: Inline Container
-DIV: A generic container used to define a division or section in a web page
+## `<meta>`
+Defines metadata that cannot be represented by other HTML elements.
 
---------------
-HEADER: Used to contain the header content of a site.
-FOOTER: Contains the footer content of a site.
-NAV: Contains the navigation menu, or other navigation functionality for the page.
-ARTICLE: Contains a standalone piece of content that would make sense if syndicated as an RSS item, for example a news item.
-SECTION: Used to either group different articles into different purposes or subjects, or to define the different sections of a single article.
-ASIDE: Defines a block of content that is related to the main content around it, but not central to the flow of it.
+Placed inside the `<head>` section.
 
---------
-FORM: Form tag
+### Common Uses
 
-Input types: Text, email, url, date, radio...
+| Attribute | Description |
+|----------|-------------|
+| `charset` | Defines character encoding (usually UTF-8) |
+| `viewport` | Controls page display on mobile devices |
+| `description` | Provides a summary for search engines |
 
------------
-GET Method: Shows input info into browser search bar
+---
 
-POST Method: Secures the info and doesn't show anything
+# 📝 Text and Content Tags
 
-----------
-SCRIPT: This tag is used to embed a client-side script (JavaScript).
+| Tag | Description |
+|----|-------------|
+| `<h1>` - `<h6>` | Heading tags (largest to smallest) |
+| `<p>` | Paragraph |
+| `<br>` | Line break |
+| `<hr>` | Thematic line divider |
+| `<b>` | Bold text without extra importance |
+| `<strong>` | Indicates strong importance (semantic) |
+| `<i>` | Italic text (alternate voice or mood) |
 
----------
+---
 
-NAV: Defines navigation links
+# 📋 List Tags
 
----------
+| Tag | Description |
+|----|-------------|
+| `<li>` | List item |
+| `<ol>` | Ordered list |
+| `<ul>` | Unordered list |
 
-MAİN: Specifies the main content of a document
+---
 
-SECTION: Defines a section in the document
+# 🔗 Links and Media
 
-DETAiLS: Defines additional details that the user can view or hide 
+| Tag | Description |
+|----|-------------|
+| `<a>` | Anchor tag (hyperlink) |
+| `<img>` | Image element |
 
-DİALOG: Defines a dialog box or window
+---
 
-SUMMARY: Defines a visible heading for a "details" element
+# 📊 Table Tags
 
-DATA: Adds a machine-readable translation of a given content
+| Tag | Description |
+|----|-------------|
+| `<table>` | Table container |
+| `<tr>` | Table row |
+| `<td>` | Table data cell |
+| `<th>` | Table header cell |
+
+---
+
+# 📦 Container Elements
+
+| Tag | Description |
+|----|-------------|
+| `<div>` | Generic block container |
+| `<span>` | Generic inline container |
+
+---
+
+# 🧠 Semantic HTML5 Elements
+
+Semantic elements describe the **meaning of the content**.
+
+| Tag | Description |
+|----|-------------|
+| `<header>` | Header content of a page |
+| `<footer>` | Footer content |
+| `<nav>` | Navigation links |
+| `<article>` | Independent content (blog post, news article) |
+| `<section>` | Thematic section of content |
+| `<aside>` | Related but secondary content |
+| `<main>` | Main content of the document |
+
+---
+
+# 📝 Forms
+
+## `<form>`
+Used to collect **user input**.
+
+### Common Input Types
+
+- `text`
+- `email`
+- `url`
+- `date`
+- `radio`
+- `password`
+- `number`
+
+---
+
+# 🔐 Form Methods
+
+| Method | Description |
+|------|-------------|
+| **GET** | Sends form data through the URL (visible in browser address bar) |
+| **POST** | Sends data securely inside the request body |
+
+---
+
+# ⚙️ Scripts
+
+## `<script>`
+
+Used to embed or reference **client-side JavaScript**.
+
+Example uses:
+
+- Interactive features
+- Form validation
+- Dynamic content updates
+
+---
+
+# 📚 Additional HTML5 Elements
+
+| Tag | Description |
+|----|-------------|
+| `<details>` | Defines additional information that users can show/hide |
+| `<summary>` | Visible heading for a `<details>` element |
+| `<dialog>` | Defines a dialog box or popup window |
+| `<data>` | Provides a machine-readable value for content |
+
+---
+
+# 📖 Summary
+
+HTML and HTML5 provide the **foundation of every web page**.  
+Learning these core tags helps developers:
+
+- Structure web content
+- Improve accessibility
+- Optimize pages for search engines
+- Build maintainable websites
+```
