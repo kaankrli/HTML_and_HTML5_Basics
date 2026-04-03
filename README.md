@@ -108,6 +108,9 @@ Placed inside the `<head>` section.
 | `<li>` | List item |
 | `<ol>` | Ordered list |
 | `<ul>` | Unordered list |
+| `<dl>` | Description list |
+| `<dt>` | A term in a description list |
+| `<dd>` | Description of a term name in a description list |
 
 ---
 
